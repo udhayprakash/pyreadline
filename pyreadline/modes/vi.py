@@ -967,7 +967,7 @@ class ViExternalEditor:
 
     def get_tempfile (self):
         import tempfile
-        return tempfile.mktemp (prefix='readline-', suffix='.py')
+        return tempfile.mkstemp(prefix='readline-', suffix='.py')
 
     def file_open (self, filename, mode):
         return file (filename, mode)
