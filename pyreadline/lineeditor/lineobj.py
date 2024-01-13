@@ -28,7 +28,7 @@ def quote_char(c):
 
 class LinePositioner(object):
     def __call__(self, line):
-        NotImplementedError("Base class !!!")
+        raise NotImplementedError("Base class !!!")
 
 class NextChar(LinePositioner):
     def __call__(self, line):
@@ -130,7 +130,7 @@ all_positioners.sort()
 
 class LineSlice(object):
     def __call__(self, line):
-        NotImplementedError("Base class !!!")
+        raise NotImplementedError("Base class !!!")
 
 
 class CurrentWord(LineSlice):
