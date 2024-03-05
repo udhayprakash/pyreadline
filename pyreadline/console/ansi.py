@@ -1,5 +1,4 @@
 # -*- coding: ISO-8859-1 -*-
-from __future__ import print_function, unicode_literals, absolute_import
 import re, sys, os
 
 terminal_escape = re.compile('(\001?\033\\[[0-9;]*m\002?)')

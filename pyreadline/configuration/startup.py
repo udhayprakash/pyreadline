@@ -1,6 +1,5 @@
 # -*- coding: UTF-8 -*-
 # Example snippet to use in a PYTHONSTARTUP file
-from __future__ import print_function, unicode_literals, absolute_import
 try:
     import pyreadline.rlmain
     #pyreadline.rlmain.config_path=r"c:\xxx\pyreadlineconfig.ini"

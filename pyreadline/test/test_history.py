@@ -1,6 +1,5 @@
 # -*- coding: UTF-8 -*-
 # Copyright (C) 2007 Jörgen Stenarson. <>
-from __future__ import print_function, unicode_literals, absolute_import
 
 import sys, unittest
 sys.path.append ('../..')

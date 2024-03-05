@@ -7,7 +7,6 @@
 #  the file COPYING, distributed as part of this software.
 #*****************************************************************************
 # table for translating virtual keys to X windows key symbols
-from __future__ import print_function, unicode_literals, absolute_import
 
 try:
     set
