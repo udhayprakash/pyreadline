@@ -16,7 +16,7 @@ except NameError:
     
 from pyreadline.unicode_helper import ensure_unicode
 
-validkey =set(['cancel',      'backspace',    'tab',          'clear',
+validkey ={'cancel',      'backspace',    'tab',          'clear',
                'return',      'shift_l',      'control_l',    'alt_l',
                'pause',       'caps_lock',    'escape',       'space',
                'prior',       'next',         'end',          'home',
@@ -35,7 +35,7 @@ validkey =set(['cancel',      'backspace',    'tab',          'clear',
                'numpad0',     'numpad1',      'numpad2',      'numpad3',
                'numpad4',     'numpad5',      'numpad6',      'numpad7',
                'numpad8',     'numpad9',      'divide',       'multiply',
-               'add',         'subtract',     'vk_decimal'])
+               'add',         'subtract',     'vk_decimal'}
 
 escape_sequence_to_special_key = {"\\e[a" : "up", "\\e[b" : "down", "del" : "delete"}
 
