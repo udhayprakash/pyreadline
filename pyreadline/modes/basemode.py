@@ -6,7 +6,6 @@
 #  Distributed under the terms of the BSD License.  The full license is in
 #  the file COPYING, distributed as part of this software.
 #*****************************************************************************
-from __future__ import print_function, unicode_literals, absolute_import
 import os, re, math, glob, sys, time
 from pyreadline.py3k_compat import callable
 import pyreadline.logger as logger
